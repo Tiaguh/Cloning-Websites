@@ -1,0 +1,8 @@
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\bin\Debug\Learning C#.exe.config
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\bin\Debug\Learning C#.exe
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\bin\Debug\Learning C#.pdb
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\obj\Debug\Learning C#.csprojResolveAssemblyReference.cache
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\obj\Debug\Learning_C_.MainForm.resources
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\obj\Debug\Learning C#.csproj.GenerateResource.Cache
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\obj\Debug\Learning C#.exe
+C:\Users\silva\OneDrive\Área de Trabalho\Learning C#\Learning C#\obj\Debug\Learning C#.pdb
