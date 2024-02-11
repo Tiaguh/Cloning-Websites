@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    overflow-x: hidden;
 }
 
 body {
@@ -32,14 +34,23 @@ header a {
     color: #000;
 }
 
-main {
+.container {
     width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+main {
+    width: 80vw;
     height: auto;
 
     display: flex;
     flex-direction: row;
-
-    padding-inline: 100px;
 }
 
 .slogan {
@@ -106,4 +117,29 @@ main {
     align-items: center;
 
     gap: 10px;
+}
+
+section {
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+section .card img {
+    width: 95px;
+}
+
+section .card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
 }
