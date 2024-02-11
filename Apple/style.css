@@ -43,7 +43,7 @@ main {
 }
 
 .slogan {
-    width: 50%;
+    width: 70vw;
     height: 40vh;
 
     display: flex;
@@ -65,17 +65,29 @@ main {
 } */
 
 .suporte-container {
-    width: 50vw;
+    width: 30vw;
     height: 40vh;
 
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 15px;
 }
 
-.suporte-container-info img {
-    width: 38px;
-    margin-right: 10px;
+.suporte-container img {
+    width: 30px;
+}
+
+.suporte-container p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.suporte-container a {
+    text-decoration: none;
+    color: #0000ff;
 }
 
 .suporte-container .suporte-container-info {
@@ -83,19 +95,15 @@ main {
     flex-direction: row;
 
     align-items: center;
+
+    gap: 10px;
 }
 
-.suporte-container-text {
+.location-container-info {
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: row;
 
-.suporte-container-text p, a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-}
+    align-items: center;
 
-.suporte-container-text a {
-    text-decoration: none;
-    color: #0000ff;
+    gap: 10px;
 }
