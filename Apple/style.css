@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    overflow-x: hidden;
 }
 
 body {
@@ -35,14 +33,9 @@ header a {
 }
 
 .container {
-    width: 100vw;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 main {
@@ -160,20 +153,16 @@ a {
 }
 
 .section-2 {
-    width: 80vw;
-
+    width: 80%;
     display: flex;
     flex-direction: row;
-
-    overflow: auto;
-
     gap: 25px;
 
-    margin-bottom: 50px;
+    overflow-x: scroll;
 }
 
 .section-2 .card-type-1 {
-    width: 380px;
+    width: 400px;
     height: 400px;
 
     display: flex;
@@ -182,7 +171,7 @@ a {
 
     background-color: #000;
 
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .section-2 .card-type-1 .card-product-description {
@@ -212,7 +201,7 @@ a {
 }
 
 .section-2 .card-type-2 {
-    width: 380px;
+    width: 400px;
     height: 400px;
 
     display: flex;
