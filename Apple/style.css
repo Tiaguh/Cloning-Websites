@@ -154,9 +154,13 @@ a {
 
 .section-2 {
     width: 80%;
+    height: 75vh;
+
     display: flex;
     flex-direction: row;
     gap: 25px;
+
+    padding: 15px;
 
     overflow-x: auto;
 }
@@ -254,7 +258,7 @@ a {
 }
 
 .card-type-2 .card-img-container-promotion img{
-    width: 80%;
+    width: 70%;
 }
 
 .card-type-1 .card-img-container-bracelet {
@@ -270,6 +274,16 @@ a {
 }
 
 .card-type-1 .card-img-container-bracelet img {
+    width: 50%;
+}
+
+.card-type-2 .card-img-container-ipads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-type-2 .card-img-container-ipads img{
     width: 50%;
 }
 
