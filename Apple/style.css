@@ -153,140 +153,84 @@ a {
 }
 
 .section-2 {
-    width: 80%;
-    height: 75vh;
+    width: 80vw;
 
     display: flex;
     flex-direction: row;
     gap: 25px;
 
-    padding: 15px;
-
     overflow-x: auto;
 }
 
-.section-2 .card-type-1 {
-    min-width: 350px;
-    max-height: 400px;
+.section-2 .card-type-1,
+.card-type-2 {
+    min-width: 400px;
+    max-height: 480px;
 
     display: flex;
     flex-direction: column;
     gap: 25px;
 
-    background-color: #000;
-
     border-radius: 10px;
 }
 
-.section-2 .card-type-1 .card-product-description {
+.section-2 .card-type-1 {
+    background-color: #000;
+}
+
+.section-2 .card-type-2 {
+    background-color: #FFF;
+}
+
+.section-2 .card-product-description {
     width: 100%;
-    height: 40%;
+    height: 30%;
 
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-    padding-inline: 20px;
-    padding-top: 20px;
+    padding-inline: 25px;
+    padding-top: 25px;
 }
 
 .section-2 .card-type-1 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     color: #FFF;
 }
 
 .section-2 .card-type-1 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     color: #FFF;
-}
-
-.section-2 .card-type-2 {
-    min-width: 350px;
-    max-height: 400px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-
-    background-color: #FFF;
-
-    border-radius: 15px;
-}
-
-.section-2 .card-type-2 .card-product-description {
-    width: 100%;
-    height: 40%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    padding-inline: 20px;
-    padding-top: 20px;
 }
 
 .section-2 .card-type-2 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     color: #000;
 }
 
 .section-2 .card-type-2 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     color: #000;
 }
 
-.card-img-container-iphone {
+.card-img-container {
     width: 100%;
-    height: 80%;
+    height: 70%;
 
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-.card-img-container-watch {
-    width: 100%;
-    height: 80%;
-}
-
-.card-type-2 .card-img-container-promotion img{
-    width: 70%;
-}
-
-.card-type-1 .card-img-container-bracelet {
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.card-type-1 .card-img-container-bracelet {
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.card-type-1 .card-img-container-bracelet img {
-    width: 50%;
-}
-
-.card-type-2 .card-img-container-ipads {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-type-2 .card-img-container-ipads img{
-    width: 50%;
-}
-
-.section-2 img {
+.card-img-container img {
     width: 100%;
 }
