@@ -381,3 +381,43 @@ a {
     font-weight: bold;
     font-size: 25px;
 }
+
+.card-type-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.section-3 .card-type-5 {
+    width: 480px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    border-radius: 10px;
+
+    padding-top: 5px;
+
+    background-color: #FFF;
+}
+
+.section-3 .card-type-6 {
+    width: 480px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 30px;
+
+    border-radius: 10px;
+
+    background-color: #FFF;
+}
